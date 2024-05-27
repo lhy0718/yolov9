@@ -1,4 +1,8 @@
 *.pt
 *.torchscript
+*.onnx
+*.npy
+
 __pycache__/
-yolov9-c-converted_web_model/
+*model/
+datasets/
