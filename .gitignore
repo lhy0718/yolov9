@@ -2,6 +2,7 @@
 *.torchscript
 *.onnx
 *.npy
+*.pb
 
 __pycache__/
 *model/
