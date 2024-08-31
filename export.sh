@@ -1,4 +1,4 @@
-python export.py --weights yolov9-t-converted.pt --imgsz 640 --batch-size 1 --include edgetpu
+python export.py --weights yolov9t.pt --imgsz 640 --batch-size 1 --include edgetpu
 
 # usage: export.py [-h] [--data DATA] [--weights WEIGHTS [WEIGHTS ...]] [--imgsz IMGSZ [IMGSZ ...]] [--batch-size BATCH_SIZE] [--device DEVICE] [--half] [--inplace] [--keras] [--optimize] [--int8]
 #                  [--dynamic] [--simplify] [--opset OPSET] [--verbose] [--workspace WORKSPACE] [--nms] [--agnostic-nms] [--topk-per-class TOPK_PER_CLASS] [--topk-all TOPK_ALL]
