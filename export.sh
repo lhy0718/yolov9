@@ -1,4 +1,4 @@
-yolo export model=yolov9t.pt batch=1 imgsz=320 format=edgetpu
+yolo export model=yolov9t.pt format=edgetpu imgsz=320
 # WARNING ⚠️ argument '--help' does not require leading dashes '--', updating to 'help'.
 # Arguments received: ['yolo', 'export', '--help']. Ultralytics 'yolo' commands use the following syntax:
 #     yolo TASK MODE ARGS
